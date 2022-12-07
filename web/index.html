@@ -8,9 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
+    <h1 id="kopje">
         museum online javascript
     </h1>
+    <p id="mkBlauw">
+        maak achtergrond blauw
+    </p>
+    <script>
+      const kopje = document.getElementById("kopje"); 
+      kopje.style.backgroundColor = "red";
+      kopje.addEventListener("click",voeruitKopje);
+      const mkblauw = document.getElementById("mkBlauw");
+      mkblauw.addEventListener("click",voeruitBlauw);
+
+      function voeruitKopje()
+      {
+        kopje.style.backgroundColor = "yellow";
+        kopje.style.color = "black";
+      }
+
+      function voeruitBlauw()
+      {
+        document.body.style.backgroundColor = "blue";
+        document.body.style.color = "white";
+        kopje.style.backgroundColor = "white";
+        kopje.style.color = "black";
+      }
+    </script>
     
 </body>
 </html>
