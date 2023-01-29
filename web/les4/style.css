@@ -1,0 +1,27 @@
+#container{
+    background-color: gray;
+    width: 700px;
+    height: 500px;
+    margin: 100px auto auto auto;
+    border-radius: 20px;
+    border: dotted black 2px;
+}
+body{
+    background-color: gray;
+}
+img{
+    width: 287px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+button{
+    border: solid black 1px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#myTitle{
+    padding-left: 110px;
+    padding-top: 10px;
+}
