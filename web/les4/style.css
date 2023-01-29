@@ -15,13 +15,17 @@ img{
     object-fit: cover;
     border-radius: 20px;
     border: solid black 2px;
+    margin-left: 200px;
 }
 button{
     border: solid black 1px;
     border-radius: 20px;
     margin-top: 20px;
+    position: relative;
+    left: 200px;
 }
 #myTitle{
     padding-left: 110px;
     padding-top: 10px;
+    margin-left: 200px;
 }
